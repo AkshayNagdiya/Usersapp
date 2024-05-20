@@ -5,7 +5,7 @@ import { fetchsingleuser } from '../Context/UserAction';
 const UserPage = () => {
 
 
-    const {dispatc, user} = useContext(UserContext);
+    const {dispatch, user} = useContext(UserContext);
 
 
     const getuser = async(id)=>{

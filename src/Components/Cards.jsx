@@ -9,7 +9,7 @@ const Cards = ({users}) => {
         <div className="card p-3 rounded-0 shadow-sm">
             <h3 className="card-title">{users.name}</h3>
             <p className="text-secondary">{users.email}</p>
-            <Link to={`user/${users?.id}`} className="btn btn-sm w-100 btn-primary">View User</Link>
+            <Link to={`user/${user?.id}`} className="btn btn-sm w-100 btn-primary">View User</Link>
         </div>
     </div>
 
